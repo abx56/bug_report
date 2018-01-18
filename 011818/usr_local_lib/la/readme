@@ -1,0 +1,13 @@
+Fans-MacBook-Pro:~ fanerror$ brew doctor
+Please note that these warnings are just used to help the Homebrew maintainers
+with debugging if you file an issue. If everything you use Homebrew for is
+working fine: please don't worry or file an issue; just ignore this. Thanks!
+
+Warning: Unbrewed .la files were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected .la files:
+  /usr/local/lib/libgfortran.la
+  /usr/local/lib/libgomp.la
+  /usr/local/lib/libquadmath.la

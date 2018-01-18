@@ -1,0 +1,10 @@
+Fans-MacBook-Pro:~ fanerror$ brew doctor
+Please note that these warnings are just used to help the Homebrew maintainers
+with debugging if you file an issue. If everything you use Homebrew for is
+working fine: please don't worry or file an issue; just ignore this. Thanks!
+
+Warning: Broken symlinks were found. Remove them with `brew prune`:
+  /usr/local/lib/libgcc_s.1.dylib
+  /usr/local/lib/libgfortran.dylib
+  /usr/local/lib/libgomp.dylib
+  /usr/local/lib/libquadmath.dylib

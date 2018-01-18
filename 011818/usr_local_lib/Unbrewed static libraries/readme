@@ -1,0 +1,15 @@
+Fans-MacBook-Pro:~ fanerror$ brew doctor
+Please note that these warnings are just used to help the Homebrew maintainers
+with debugging if you file an issue. If everything you use Homebrew for is
+working fine: please don't worry or file an issue; just ignore this. Thanks!
+
+Warning: Unbrewed static libraries were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected static libraries:
+  /usr/local/lib/libgfortran.a
+  /usr/local/lib/libgomp.a
+  /usr/local/lib/libquadmath.a
+  /usr/local/lib/libtclstub8.6.a
+  /usr/local/lib/libtkstub8.6.a
